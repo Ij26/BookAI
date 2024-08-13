@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BookAI</title>
+    <!-- Tailwind CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="bg-dark-900 text-white relative">
+    <!-- Background Animation -->
+    <div class="background">
+      <div class="dot-container">
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+      </div>
+    </div>
+
+    <!-- Navbar -->
+    <nav
+      class="flex justify-between items-center p-4 bg-dark-900 relative z-10"
+    >
+      <div class="flex items-center">
+        <!-- Replace with your logo path -->
+        <img src="logo.png" alt="BookAI Logo" class="h-8" />
+        <span class="ml-2 text-2xl font-bold">BookAI</span>
+      </div>
+      <div class="flex items-center">
+        <a href="#" class="mx-4 text-lg hover:text-purple-500">Features</a>
+        <a href="#" class="mx-4 text-lg hover:text-purple-500">How It Works</a>
+        <a href="#" class="mx-4 text-lg hover:text-purple-500">Roadmap</a>
+        <a href="#" class="mx-4 text-lg hover:text-purple-500">API</a>
+        <a href="pricing.html" class="mx-4 text-lg hover:text-purple-500"
+          >Pricing</a
+        >
+        <a href="#" class="mx-4 text-lg hover:text-purple-500">Models</a>
+        <button
+          class="bg-blue-500 hover:bg-blue-600 px-4 py-2 rounded text-white ml-4"
+        >
+          Login / Sign Up
+        </button>
+      </div>
+    </nav>
+
+    <!-- Main Section -->
+    <section
+      class="flex flex-col items-center justify-center min-h-screen text-center bg-dark-900 relative z-10"
+    >
+      <h1 class="text-5xl font-bold">
+        Explore the Possibilities of
+        <span class="text-purple-500">AI Book Writing</span> with BookAI
+      </h1>
+      <p class="mt-4 text-lg text-gray-400">
+        Unleash the power of AI to create captivating books in minutes.
+        Download, Distribute wherever you want. Generate unlimited free books.
+      </p>
+      <div class="mt-8">
+        <button
+          class="bg-blue-500 hover:bg-blue-600 px-6 py-3 rounded text-white mx-2"
+        >
+          Get Started
+        </button>
+        <button
+          class="bg-blue-500 hover:bg-blue-600 px-6 py-3 rounded text-white mx-2"
+        >
+          Get API Access
+        </button>
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
